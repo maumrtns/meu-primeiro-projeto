@@ -18,6 +18,6 @@ public class ExemploVariaveis {
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);
 
-
+    
     }
 }
