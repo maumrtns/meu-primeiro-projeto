@@ -4,7 +4,7 @@ public class CalculadoraIdade {
         //2 -> pegar o ano de nascimento
         //3 -> subtrair o ano atual - ano de nascimento
 
-        int anoAtual =2024;
+        int anoAtual = 2024;
         int anoNascimento = 1996;
 
         int resultado = anoAtual - anoNascimento;

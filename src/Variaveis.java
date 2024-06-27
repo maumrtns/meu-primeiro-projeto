@@ -15,7 +15,5 @@ public class Variaveis {
         System.out.println("Valor do PI é: " + VALOR_PI);
 
 
-
-
     }
 }

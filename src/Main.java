@@ -21,7 +21,7 @@ public class Main {
 
         /*Criação do campo de Texto*/
         JTextField campoTextoNome = new JTextField();
-        campoTextoNome.setBounds(20,40,200,20 );
+        campoTextoNome.setBounds(20, 40, 200, 20);
 
         /*Criação do botão */
         JButton botaoEnviar = new JButton();
