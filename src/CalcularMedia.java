@@ -6,13 +6,32 @@ public class CalcularMedia {
 
         System.out.println("Digite a nota do primeiro trimestre");
         int nota1 = teclado.nextInt();
+
         System.out.println("Digite a nota do segundo trimestre");
         int nota2 = teclado.nextInt();
+
         System.out.println("Digite a nota do terceiro trimestre");
         int nota3 = teclado.nextInt();
 
         double media = (nota1 + nota2 + nota3) / 3;
-        System.out.println("A media para o Aluno é: " + media);
+        System.out.println("A média do aluno é: " + media);
+
+        // Operadores de comparacao
+        // igualdade: ==
+        // maior e menor que: > <
+        // e diferente de: !=
+
+
+
+        if (media >= 6) {
+            System.out.println("Aprovado!");
+        } else {
+            System.out.println("Reprovado!");
+        }
+
+
         teclado.close();
+
+
     }
 }
