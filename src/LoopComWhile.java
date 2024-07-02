@@ -7,11 +7,14 @@ public class LoopComWhile {
 
         System.out.println("Digite o valor:");
         int contador = scanner.nextInt();
-        int valor = 1;
+        int valor = 2;
 
         while (valor <= contador) {
+            if (valor % 2 == 0) {
+                System.out.println(valor);
+            }
             System.out.println(valor);
-            valor = valor + 1;
+            valor++;
         }
         scanner.close();
     }
